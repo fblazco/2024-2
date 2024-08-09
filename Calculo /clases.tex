@@ -1,0 +1,142 @@
+
+\documentclass{article}
+\author{fblazco}
+\title{MAT1610}
+\usepackage{amsmath}
+\begin{document}
+	\maketitle
+    \section{Clase 1}
+        \subsection{Fechas evaluaciones}
+            \begin{enumerate}
+                \item  I1 lunes 2 de Septiembre (hasta Clase 10). Bloque 7-8
+                \item  I2 Martes 8 de Octubre  (hasta Clase 20). Bloque 7-8
+                \item  I3 Lunes 4 de Noviembre (hasta Clase 30). Bloque 7-8
+                \item  Examen Lunes de Diciembre (toda la materia)
+            \end{enumerate}
+        \subsection{Ponderaciones}
+            \begin{center}
+                NF $\equiv$ Interrogaciones 20\%x3 + Lab 10\% + Ex 30\% 
+            \end{center}
+        \subsection{Limite de Funciones}
+            \begin{enumerate}
+                \item Consideremos esta funcion \begin{equation}
+                    f(x) = x**2 -1/ x-1 , Dom(f)=R-\{1\}
+                \end{equation} Que ocurre si me acerco a 1?
+                \item \begin{tabular} {c c}
+                    $x->1- $& me acerco por la izquierda \\
+                    $x->1+$ & me acerco por la derecha
+                \end{tabular}
+                \item si x $->$ 1 $\equiv$ f(x) $\equiv$ ?
+                \item esto lo podemos escribir como
+                \begin{equation}
+                    \lim_{x->1} f(x)=2
+                \end{equation}
+                \item tecnicamente: "si x esta muy cerca de 1 entonces f(x) esta muyt cerca de 2"
+                \begin{equation}
+                    f(x) = x^2 -1 / x-1 = (x-1)(x+1)\div{(x-1)} \equiv x+1 
+                \end{equation}
+                \item 
+                \begin{equation}
+                    f(x) = x+1, x\not{\equiv}2
+                \end{equation}
+                \item Formalmente:
+                \begin{enumerate}
+                    \item Supongamos que f(x) esta definida para todo x cerca de "a" 
+                    \item Escribiremos: \begin{equation}
+                        \lim_{x->a} f(x) = L
+                    \end{equation} Si cuando x se aproxima a "a" entonces f(x) se aproxima a "n"
+                \end{enumerate}
+                \item  Sea \begin{equation}
+                    f(x) \equiv (x+2)^2 + 1, x<=-1   
+                    f(x) \equiv (x+3), x>-1 
+                    \end{equation}
+                    Grafique f(x) y concluya el valor de \begin{equation}
+                        \lim_{x->-1} f(x)
+                    \end{equation} Si me acerco por + se acerca a 2 y si que acerco por - tambien me acerco a 2 (viendolo desde el grafico de la funcion)
+                    y eso es igual al grafico de f(-1)
+                    
+            \end{enumerate}
+        \section{Clase 2}
+            \subsection{Calculo de Algunos Limites}
+            \begin{enumerate}
+                \item \begin{equation}
+                    \lim_{x->9} \frac{\sqrt[2]{x}-3}{x-9} =
+                    \lim_{x->9} \frac{\sqrt[2]{x}-3 \bigodot (\sqrt[2]{x} +3)}{x-9 \bigodot (\sqrt[2]{x} +3)}  =
+                    \lim_{x->9} \frac{\sqrt[2]{x}-3}{x-9} \equiv \frac{1}{6}
+                \end{equation}
+                \item \begin{equation} \lim_{x->2} \frac{x^2-x-2}{x-2} \equiv 3
+                \end{equation}
+                \item \begin{equation}
+                    \lim_{x->-1} \frac{x^3 +1}{x+1} = 
+                    \lim_{x->-1} \frac{(x+1)\bigodot (x^2-x+1)}{(x+1)}=
+                    \lim_{x->-1} (x^2-x+1) \equiv 3
+                \end{equation}
+                \item  \begin{equation}
+                    \lim_{x->27} \frac{\sqrt[3]{x}-3}{x-27} =
+                    \lim_{x->27} \frac{\sqrt[3]{x}-3}{(\sqrt[3]{x}-3) \bigodot (\sqrt[3]{x}^2 + 3\sqrt[3]{x}+9)} =
+                \end{equation}
+                \item  \begin{equation}
+                    \lim_{t->0} \frac{\sqrt[2]{t^2 +9}-3}{t^2} \equiv \frac{1}{6}
+                \end{equation}
+            \end{enumerate}
+            \subsection{Limites Laterales}
+            \begin{enumerate}
+                \item \begin{equation}
+                    \lim_{x->a+} f(x) = L2
+                \end{equation}
+                Limite lateral derecho y se da cuando x se acerca a "a" por la derecha
+                \item \begin{equation}
+                    \lim_{x->a-} f(x) = L1
+                \end{equation}
+                Limite lateral izquierdo y se da cuando x se acerca a "a" por la izquierda
+                \item \begin{equation}
+                    \lim_{x->a} f(x)
+                \end{equation}\begin{center}
+                    \textbf{No existe}
+                \end{center}
+            \end{enumerate}
+            \textbf{Teorema}
+             \newline   
+            \begin{equation}
+                    \lim_{x->a} f(x) =L \equiv \lim_{x->a+} f(x) = L = \lim_{x->a-} f(x)
+            \end{equation} Obs: Limites laterales distintos imploca que el limite no existe
+            \newline \textbf{Ejemplo:}
+            \begin{enumerate}
+                \item Para \begin{equation}
+                    f(x) = \frac{x-1}{|x-1|}
+                \end{equation} Calcular
+                \begin{equation}
+                    \lim_{x->1} f(x)
+                \end{equation} 
+                \begin{equation}
+                    y=|x-1| \Biggl\{ 
+                    \begin{aligned}
+                          && (x-1) && ,si\ x>=1 \\ 
+                          &&-(x-1) &&,si\ x<1
+                    \end{aligned}
+                \end{equation} Veamos los limites laterales de f(x)
+                \begin{equation}
+                    \lim_{x->+1}f(x)=\lim_{x->+1} \frac{x-1}{x-1} \equiv 1
+                \end{equation}
+                \begin{equation}
+                    \lim_{x->-1}f(x)=\lim_{x->-1} \frac{x-1}{-(x-1)} = \lim_{x->-1} -1 \equiv -1
+                \end{equation}
+                -> \begin{equation}
+                    \lim_{x->1} f(x)
+                \end{equation} \begin{center}
+                    NO existe pues los laterales son distintos
+                \end{center}
+                \item Sea g(x) = \begin{equation}
+                    \biggl\{\begin{aligned}
+                        2x && ,si\ x>=3 \\ 
+                        \frac{x^2 -9}{x-3} &&,si\ x<3 
+                    \end{aligned}
+                \end{equation}
+            \end{enumerate}
+    \section{Clase 3}
+    
+           
+          
+        
+\end{document} 
+
