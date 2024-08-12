@@ -3,6 +3,7 @@
 \author{fblazco}
 \title{IIC2233}
 \usepackage{amsmath}
+\usepackage{graphicx}
 \begin{document}
 	\maketitle
     \section{Clase 1}
@@ -10,6 +11,96 @@
         \item \textbf{Fecha Evaluaciones}
     \end{enumerate}    
           
+    \section{Clase 3}
+    \subsection{Induccion Estructural}
+        \textbf{Clase anterior: Teorema}
+        \begin{enumerate}
+            \item Principio del buen orden
+            \item Principio de induccion simple
+            \item Principio de induccion fuerte
+        \end{enumerate}
+        \textbf{Definiciones Inductivas}:
+        Para definir inductivamente un conjunto necesitamos
+        \begin{enumerate}
+            \item Un conjunto de elementos base no necesariamente finito
+            \item Un conjunto finito de reglas de construccion de nuevos elementos del conjunto a partir de elementos que ya estan en elementos
+            \item Establecer que el conjunto es el menor que cumple las reglas
+        \end{enumerate} 
+        \textbf{Ejemplo}:
+        El conjunto de numeros pares es el menor conjunto tq
+        \begin{enumerate}
+            \item El 0 siempre es pares
+            \item Si n es un numero par, n+2 es numero par
+        \end{enumerate}
+        \textbf{Definicion (listas enlazadas) $\mathcal{L}$n}: El conjunto $\mathcal{L}$n es el menor conjunto que cumple con las sgts. reglas
+        \begin{enumerate}
+            \item $\phi$ $ \epsilon $ $\mathcal{L}$n
+            \item Si L $\epsilon $ $\mathcal{L}$n y k $\varepsilon $ N, entonces L $\rightarrow$ k $\epsilon $ Ln
+        \end{enumerate}
+        \textbf{Cuando dos listas enlazadas son iguales?}
+
+            \begin{enumerate}
+                \item Si alguna es $\phi$, son iguales ssi la otra tmb es vacia
+                \item Si ninguna es vacia entonces estamos en un escenario 
+                \begin{center}
+                    $L_{1}$$\rightarrow$ $k_{1}$ vs L2 $\rightarrow$ k2
+                \end{center}
+                en este caso, resulta natural considerar 
+                \begin{center}
+                    L1 $\rightarrow$ k1 = L2 $\rightarrow$ k2 ssi. L1=L2 y k1=k2
+                \end{center}
+            \end{enumerate}
+        \subsection{Principio de Induccion Estructural}
+        Sea A un conjunto definido inductivamente y P una propiedad sobre los elementos de A.
+        Si se cumple que:
+        \begin{enumerate}
+            \item Todos los elementos base de A cumplen la propiedad P
+            \item Para cada regla de construccion, si la regla se aplica sobre elementos
+            en A que cumplen la propiedad P 
+        \end{enumerate}
+        \textbf{Ejemplo}
+        P(L): L tiene el mismo numero de flechas que de elementos
+        \begin{center}
+            BI: El unico caso base de es la lista vacia
+            \newline
+            HI:
+        \end{center}(terminar demostracion)
+        \newline
+        \textbf{Para demostrar propiedades en Ln definiremos mas operadores}(agregar operadores)
+        \begin{enumerate}
+            \item Largo, recibe lista y enetrega numero de elementos
+            \item Suma, recibe lista y entrega la suma de sus elementos
+            \item Maximo, recibe lista y entrega el maximo, o -1 si es vacia \begin{center}
+                max: $L_{n}$ $\rightarrow$ N $\vee$ \{-1\}
+            \end{center}
+            \item Cabeza, recibe una lista no vacia y entrega su primer elemento \begin{center}
+                head: $L_{n}$ $/$ \{$\phi$\} $\rightarrow$ $L_{n}$ 
+            \end{center}
+            Si k $\epsilon$ N, entonces suf($\rightarrow$k) = $\phi$ \newline
+            Si 
+        \end{enumerate}
+        \textbf{Teorema (props, listas)}: Si L, L1, L2 $\epsilon$ Ln, entonces:
+        \begin{enumerate}
+            \item sum(L) $>=$ 0
+            \item max(L) $<=$ sum(L)
+        \end{enumerate}
+        \textbf{Teorema (prop. 4 de listas)}
+        Sean, L1, L2 $\epsilon$ Ln. Si L1, L2 $\neq$ $\phi$ (terminar)
+        \newline
+        \textbf{Demostracion:}
+        Sea \begin{center}
+            L1 =$\rightarrow$ K1 \\
+            L2 =$\rightarrow$ K2 \\
+            tq suf(L1) = suf (L2) \\
+            sum(L1) = sum(L2)
+        \end{center}
+        Por definicion de igualdad de listas 
+        \begin{center}
+            L1=L2 \\
+            $\phi$ $\rightarrow$ k = $\phi$ $\rightarrow$ y \\
+        $\phi$ = $\phi$ \\
+        y k= j
+        \end{center}
         
 \end{document}  
 
