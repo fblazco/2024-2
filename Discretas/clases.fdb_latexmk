@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1723477489.53742 "/Users/felipeblasquezcontreras/Desktop/2024-2/Apuntes/2024-2/Discretas/clases.tex" "clases.pdf" "clases" 1723477489.94323 0
-  "/Users/felipeblasquezcontreras/Desktop/2024-2/Apuntes/2024-2/Discretas/clases.tex" 1723477489.32084 4585 4f04bf6d283cad11019050ca8b4c12a0 ""
+["pdflatex"] 1723644156.99453 "/Users/felipeblasquezcontreras/Desktop/2024-2/Apuntes/2024-2/Discretas/clases.tex" "clases.pdf" "clases" 1723644157.39022 0
+  "/Users/felipeblasquezcontreras/Desktop/2024-2/Apuntes/2024-2/Discretas/clases.tex" 1723644156.80692 5316 70191af44970459382c08a43e5cb2dfa ""
   "/usr/local/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1246382020 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -48,8 +48,8 @@
   "/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1717009229.44424 5467645 128b85b7cde5f5edc5cb7f1dd7ff8736 ""
   "/usr/local/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1717009150 8221423 f626daab6898487ee4209df3c51a84b7 ""
   "/usr/local/texlive/2024/texmf.cnf" 1710266656 577 e590dabc9e28c5b61546e15f63eebcdf ""
-  "clases.aux" 1723477489.90361 463 d516a809c52efe8264a0d1fe73aac8e6 "pdflatex"
-  "clases.tex" 1723477489.32084 4585 4f04bf6d283cad11019050ca8b4c12a0 ""
+  "clases.aux" 1723644157.35383 671 426fc1e4b5fcda81071325b63c009ca9 "pdflatex"
+  "clases.tex" 1723644156.80692 5316 70191af44970459382c08a43e5cb2dfa ""
   (generated)
   "clases.aux"
   "clases.log"
