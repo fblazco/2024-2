@@ -53,6 +53,49 @@
             \item Concatenando n full-adders, podemos crear sumadores de n bits, respetando el acarreo
             \item 
         \end{enumerate}
+        \section{Clase 4}
+        \subsection{Minterms y Maxterms}
+        \textbf{Minterm}
+        \begin{enumerate}
+            \item Las señales dentro de una combinacion de input se conectan con compuertas AND
+            por que se debe verificar que sus valores son los esperados.
+            A las señales de valor 0 se les aplica NOT para verificar que tengan un valor de verdad falso
+            \item Todas las combinaciones se conectan con OR's 
+            \item \begin{equation}
+                ( \bar{A} \wedge B \wedge \bar{C}) \vee 
+                ( A \wedge \bar{B} \wedge C) \vee  
+                ( A \wedge B \wedge C)
+            \end{equation}  
+        \end{enumerate}
+        \textbf{Maxterm}
+        \begin{enumerate}
+            \item funcion similar a un Minterm (rellenar)
+            \item \begin{equation}
+                \begin{aligned}
+                    ( \bar{A} \wedge B \wedge \bar{C}) \\
+                    ( \bar{A} \wedge B \wedge \bar{C}) \\
+                    ( \bar{A} \wedge B \wedge \bar{C}) \\ 
+                    ( \bar{A} \wedge B \wedge \bar{C}) \\
+                    ( \bar{A} \wedge B \wedge \bar{C}) 
+                \end{aligned}
+            \end{equation}
+        \end{enumerate}
+        \newpage
+        \subsection{Unidad aritmetico logica ALU}
+        \textbf{Circuitos de Control}
+        \begin{enumerate}
+            \item Enabler o habilitador: \begin{center}
+                 -Componente que habilita o no el paso de una señal o bus de datos
+            
+            \end{center}
+            \item Multiplexor o MUX:  \begin{center}
+                -Permite el paso de una señal o bus de datos entre un conjunto de opciones. 
+                Se construye como una extension del \textbf{enabler}
+            \end{center}
+            \item De-Multiplexor o Demux: \begin{center}
+                -Transmite una señal o bus de datos a una de multiples salidas
+            \end{center}
+        \end{enumerate}
 \end{document}  
 
 

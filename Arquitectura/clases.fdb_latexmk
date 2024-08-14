@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1723468860.68109 "/Users/felipeblasquezcontreras/Desktop/2024-2/Apuntes/2024-2/Arquitectura/clases.tex" "clases.pdf" "clases" 1723468861.10178 0
-  "/Users/felipeblasquezcontreras/Desktop/2024-2/Apuntes/2024-2/Arquitectura/clases.tex" 1723468860.469 2072 18c561984f69525b394ae3305e58c7c9 ""
+["pdflatex"] 1723641775.14714 "/Users/felipeblasquezcontreras/Desktop/2024-2/Apuntes/2024-2/Arquitectura/clases.tex" "clases.pdf" "clases" 1723641775.58743 0
+  "/Users/felipeblasquezcontreras/Desktop/2024-2/Apuntes/2024-2/Arquitectura/clases.tex" 1723641774.95579 4049 551aaf502085e30f5986ee110a091e0f ""
   "/usr/local/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1246382020 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -19,9 +19,11 @@
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmsy8.tfm" 1136768653 1120 8b7d695260f3cff42e636090a8002094 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb" 1248133631 34811 78b52f49e893bcba91bd7581cdc144c0 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb" 1248133631 32080 340ef9bf63678554ee606688e7b5339d ""
+  "/usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb" 1248133631 36299 5f9df58c2139e7edcf37c8fca4bd384d ""
   "/usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1248133631 35752 024fb6c41858982481f6968b5fc26508 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb" 1248133631 32722 d7379af29a190c3f453aba36302ff5a9 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb" 1248133631 32362 179c33bbf43f19adbb3825bb4e36e57a ""
+  "/usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1248133631 32569 5e5ddc8df908dea60932f3c484a54c0d ""
   "/usr/local/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii" 1461363279 71627 94eb9990bed73c364d7f53f960cc8c5b ""
   "/usr/local/texlive/2024/texmf-dist/tex/latex/amsmath/amsbsy.sty" 1686341992 2222 499d61426192c39efd8f410ee1a52b9c ""
   "/usr/local/texlive/2024/texmf-dist/tex/latex/amsmath/amsgen.sty" 1686341992 4173 82ac04dfb1256038fad068287fbb4fe6 ""
@@ -43,8 +45,8 @@
   "/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1717009229.44424 5467645 128b85b7cde5f5edc5cb7f1dd7ff8736 ""
   "/usr/local/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1717009150 8221423 f626daab6898487ee4209df3c51a84b7 ""
   "/usr/local/texlive/2024/texmf.cnf" 1710266656 577 e590dabc9e28c5b61546e15f63eebcdf ""
-  "clases.aux" 1723468861.06918 1173 d134a7289262f7c0ae1fedbc53003737 "pdflatex"
-  "clases.tex" 1723468860.469 2072 18c561984f69525b394ae3305e58c7c9 ""
+  "clases.aux" 1723641775.55056 1501 57101d2948b0655285820a192f645363 "pdflatex"
+  "clases.tex" 1723641774.95579 4049 551aaf502085e30f5986ee110a091e0f ""
   "fulladder.png" 1723468568.54449 1852 321d50d24f03cf59b2f724d7b40194e5 ""
   "halfadder.jpg" 1723468198.53853 54108 0dd0b51693f33dc9f015fbbd994e0868 ""
   "sumador4bits.png" 1723468559.79652 9559 67f5997f4845872313d29656e5880934 ""
