@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1723641775.14714 "/Users/felipeblasquezcontreras/Desktop/2024-2/Apuntes/2024-2/Arquitectura/clases.tex" "clases.pdf" "clases" 1723641775.58743 0
-  "/Users/felipeblasquezcontreras/Desktop/2024-2/Apuntes/2024-2/Arquitectura/clases.tex" 1723641774.95579 4049 551aaf502085e30f5986ee110a091e0f ""
+["pdflatex"] 1724073408.32757 "/Users/felipeblasquezcontreras/Desktop/2024-2/Apuntes/2024-2/Arquitectura/clases.tex" "clases.pdf" "clases" 1724073408.75176 0
+  "/Users/felipeblasquezcontreras/Desktop/2024-2/Apuntes/2024-2/Arquitectura/clases.tex" 1724073408.30362 4853 64b274c2f01488e8ce887321631a5f99 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1246382020 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -45,8 +45,8 @@
   "/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1717009229.44424 5467645 128b85b7cde5f5edc5cb7f1dd7ff8736 ""
   "/usr/local/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1717009150 8221423 f626daab6898487ee4209df3c51a84b7 ""
   "/usr/local/texlive/2024/texmf.cnf" 1710266656 577 e590dabc9e28c5b61546e15f63eebcdf ""
-  "clases.aux" 1723641775.55056 1501 57101d2948b0655285820a192f645363 "pdflatex"
-  "clases.tex" 1723641774.95579 4049 551aaf502085e30f5986ee110a091e0f ""
+  "clases.aux" 1724073408.71335 1501 57101d2948b0655285820a192f645363 "pdflatex"
+  "clases.tex" 1724073408.30362 4853 64b274c2f01488e8ce887321631a5f99 ""
   "fulladder.png" 1723468568.54449 1852 321d50d24f03cf59b2f724d7b40194e5 ""
   "halfadder.jpg" 1723468198.53853 54108 0dd0b51693f33dc9f015fbbd994e0868 ""
   "sumador4bits.png" 1723468559.79652 9559 67f5997f4845872313d29656e5880934 ""
